@@ -29,6 +29,7 @@
   itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you
   can contribute back to the original project using Pull Requests.
   
+  
   - [ ] **What happens when we do git pull origin master**
   git pull origin master pulls the master branch from the remote called origin into your current branch.
   
@@ -43,10 +44,14 @@
   - [ ] **When we have finished working on a branch, how do we make sure that our changes do 
   not cause a conflict with master? (this can all be done locally)**
   
-  ``` git checkout master
+  ``` git add files 
+      git commit -m "describe changes #related"
+      git checkout master
       git pull origin master
-      git checkout myBranch ```
-      *merge the master into your branch and solve conflicts*
+      git checkout myBranch 
+      git merge master
+      ```
+      *"solve conflicts"*
       
       - [ ] **What does git push origin [branch-name] do?**
       
