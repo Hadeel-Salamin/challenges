@@ -1,26 +1,32 @@
 - [ ] **Why do we use github/git?**
-- It lets you and others work together on projects from anywhere by storing remote copies 
+ - It lets you and others work together on projects from anywhere by storing remote copies 
   of your projects/repositories (github servers) as backup of your local copies.
   
 - [ ] **What happens when you clone a repository?**
   
-You can clone your repository to create a local copy on your computer and sync between the two locations.
+ When you clone a repository, it creates a local copy on your computer and sync between the two locations.
 
-in details 
+  _IN DETAILS_
 
-1- point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. 
+ 1- point to an existing repo and make a clone or copy of that repo in a new directory, at another location. 
 
-2- cloning automatically creates a remote connection called "origin" pointing back to the original repository.
+ 2- cloning automatically creates a remote connection called "origin" pointing back to the original repository.
 
-*"This makes it very easy to interact with a central repository."*
+ *"This makes it very easy to interact with a central repository."*
 
 - [ ] **What happens when you fork a repository?**
-an exact replica of the repository is created on your individual user account.
-A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project.
+
+  - An exact replica of the repository is created on your individual user account.
+  
+   - **The main point of forking**
+  >   A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original        project.
  Forks act as a sort of bridge between the original repository and your personal copy. You can submit Pull Requests to help 
- make other people’s projects better by offering your changes up to the original project. Forking is at the core of 
- social coding at GitHub. // **edit later**
-  A forked repository differs from a clone in that a connection exists between your fork and the original repository
+ make other people’s projects better by offering your changes up to the original project. 
+ *"Forking is at the core of social coding at GitHub."*
+ 
+   - **Fork differs from clone in..**
+
+  > A forked repository differs from a clone in that a connection exists between your fork and the original repository
   itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you
   can contribute back to the original project using Pull Requests.
   
@@ -33,8 +39,7 @@ A fork is a copy of a repository that allows you to freely experiment with chang
   
   - [ ] **When we make a change to a file, how do we tell git to track it?**
   
-  ``` git add fileName 
-      git commit -m "describe your changes #related"```
+  ``` git add fileName ```
   
   - [ ] **When we have finished working on a branch, how do we make sure that our changes do 
   not cause a conflict with master? (this can all be done locally)**
