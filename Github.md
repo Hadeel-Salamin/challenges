@@ -24,9 +24,8 @@
  make other people’s projects better by offering your changes up to the original project. 
  *"Forking is at the core of social coding at GitHub."*
  
-   - **Fork differs from clone in..**
-
-  > A forked repository differs from a clone in that a connection exists between your fork and the original repository
+   - **Forks differs from clone in..**
+  >      A forked repository differs from a clone in that a connection exists between your fork and the original repository
   itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you
   can contribute back to the original project using Pull Requests.
   
