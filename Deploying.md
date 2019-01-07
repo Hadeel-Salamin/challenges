@@ -44,9 +44,9 @@
     ```
   - The default user for accessing the local PostgreSQL server is **postgres** with **a blank password**.
     *"so you need to add EV to Travis with the database url.."*
-    ```
-    DB_URL = postgres://postgres:@localhost:5432/travis_ci_test
-    ```
+   ```
+   DB_URL = postgres://postgres:@localhost:5432/travis_ci_test
+   ```
   
 - [ ] **How to set your app up on heroku**
   - [ ] **If your app heroku deploy doesn’t work, what can you do to find out the problem**
