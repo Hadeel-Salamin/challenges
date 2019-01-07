@@ -43,6 +43,7 @@
     - psql -c 'create database travis_ci_test;' -U postgres
     ```
   - The default user for accessing the local PostgreSQL server is **postgres** with **a blank password**.
+  
     *"so you need to add EV to Travis with the database url.."*
    ```
    DB_URL = postgres://postgres:@localhost:5432/travis_ci_test
